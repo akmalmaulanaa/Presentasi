@@ -7,7 +7,7 @@
   - Monitoring suhu & kelembapan (DHT11)
   - Simulasi tegangan
   - Kontrol LED dari web
-  - Tampilan futuristik (HTML + CSS + JS)
+  - Tampilan (HTML + CSS + JS)
 */
 
 #include <WiFi.h>
@@ -15,8 +15,8 @@
 #include <DHT.h>
 
 // ====== 1. Koneksi WiFi ======
-const char* ssid = "NAMA_WIFI";         // Ganti dengan nama WiFi kamu
-const char* password = "PASSWORD_WIFI"; // Ganti dengan password WiFi kamu
+const char* ssid = "NAMA_WIFI";
+const char* password = "PASSWORD_WIFI";
 
 // ====== 2. Inisialisasi WebServer ======
 WebServer server(80);
