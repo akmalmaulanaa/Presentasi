@@ -15,8 +15,8 @@
 #include <DHT.h>
 
 // ====== 1. Koneksi WiFi ======
-const char* ssid = "NAMA_WIFI";
-const char* password = "PASSWORD_WIFI";
+const char* ssid = "ESP-32_DHT11";
+const char* password = "12345678";
 
 // ====== 2. Inisialisasi WebServer ======
 WebServer server(80);
